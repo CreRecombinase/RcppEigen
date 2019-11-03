@@ -7,6 +7,10 @@
   \itemize{
     \item Fixed skeleton package creation listing RcppEigen under Imports
     (James Balamuta in \ghpr{68} addressing \ghit{16}).
+    \item Small RNG use update to first example in skeleton package used
+    by package creation helper.
+    \item Update vignette example to use RcppEigen:::eigen_version().
+    \item Correct one RcppEigen.package.skeleton() corner case.
   }
 }
 
